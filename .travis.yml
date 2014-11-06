@@ -1,0 +1,5 @@
+language: ruby
+before_script:
+- gem install cucumber
+script:
+- cucumber --format progress --color --dry-run --wip
