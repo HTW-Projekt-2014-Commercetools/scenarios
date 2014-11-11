@@ -6,4 +6,7 @@ Feature: Need based search
     Given a customer is interested in a new bass guitar
     When he adds his search on the website/app/glass/whatever
     Then vendors who registered on the website as guitar vendors will get a push notification and can make an offer to the customer
+    And vendors should get a notifications if other vendors already made a better offer
     And vendors and searchers should get matched intelligent e.g. using geo information of customer and store position
+    And vendors should be able to make special offers like a discount when the customer visits their local store to see the guitar
+
